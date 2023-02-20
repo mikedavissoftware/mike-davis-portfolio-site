@@ -1,2 +1,24 @@
-# mike-davis-portfolio-site
-This is my portfolio site for all the work I've done in software, audio, video, graphic design, and more! Enjoy :)
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
