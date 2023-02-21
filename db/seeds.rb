@@ -5,3 +5,22 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+Audio.create(
+  project_name: "",
+  type: "",
+  sub_type: "",
+  url: "",
+  album_url: "",
+  client: "",
+  client_url: "",
+  summary: "",
+  description: "",
+  roles: [
+    "",
+    "",
+    "",
+    ""
+  ]
+)
+
