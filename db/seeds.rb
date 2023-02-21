@@ -6,21 +6,28 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Audio.create(
+Project.create(
   project_name: "",
-  type: "",
-  sub_type: "",
   url: "",
-  album_url: "",
   client: "",
   client_url: "",
   summary: "",
-  description: "",
-  roles: [
-    "",
-    "",
-    "",
-    ""
-  ]
+  description: ""
 )
 
+Contributor.create(
+  name: "",
+  url: "",
+  image: ""
+)
+
+Skill.create(
+  name: ""
+)
+
+Contribution.create(
+  description: "",
+  project_id: 0,
+  contributor_id: 0,
+  skill_id: 0
+)
