@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  /* background-color: white; */
 }
 
 .logo {
@@ -60,7 +61,7 @@ nav > a {
   font-weight: 500;
   color: #fcfcfc;
   text-decoration: inherit;
-  padding: 2px;
+  padding: 5px;
   margin: 10px;
   border-radius: 1em;
   text-shadow: 1px 1px 2px rgb(0,0,0,1);

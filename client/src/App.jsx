@@ -6,13 +6,14 @@ import HomePage from "./components/HomePage"
 import AboutPage from "./components/AboutPage"
 import TestimonialsPage from "./components/TestimonialsPage"
 import ContactPage from "./components/ContactPage"
-import WebDevPage from "./components/WebDevelopmentPage"
-import AudioPage from "./components/AudioPage"
-import VideoPage from "./components/VideoPage"
-import GraphicDesignPage from "./components/GraphicDesignPage"
-import EntrepreneurshipPage from "./components/EntrepreneurshipPage"
-import FundraisingPage from "./components/FundraisingPage"
-import Footer from "./components/Footer"
+import ServicesPage from "./components/ServicesPage"
+  import WebDevPage from "./components/WebDevelopmentPage"
+  import AudioPage from "./components/AudioPage"
+  import VideoPage from "./components/VideoPage"
+  import GraphicDesignPage from "./components/GraphicDesignPage"
+  import EntrepreneurshipPage from "./components/EntrepreneurshipPage"
+  import FundraisingPage from "./components/FundraisingPage"
+  import Footer from "./components/Footer"
 
 
 export default function App() {
@@ -38,25 +39,28 @@ export default function App() {
           <ContactPage />
         </Route>
 
-        <Route path="/web-development">
-          <WebDevPage />
+        <Route path="/services">
+          <ServicesPage />
         </Route>
-        <Route path="/audio">
-          <AudioPage />
-        </Route>
-        <Route path="/video">
-          <VideoPage />
-        </Route>
-        <Route path="/graphic-design">
-          <GraphicDesignPage />
-        </Route>
-        
-        <Route path="/entrepreneurship">
-          <EntrepreneurshipPage />
-        </Route>
-        <Route path="/fundraising">
-          <FundraisingPage />
-        </Route>
+
+          <Route path="/web-development">
+            <WebDevPage />
+          </Route>
+          <Route path="/audio">
+            <AudioPage />
+          </Route>
+          <Route path="/video">
+            <VideoPage />
+          </Route>
+          <Route path="/graphic-design">
+            <GraphicDesignPage />
+          </Route>
+          <Route path="/entrepreneurship">
+            <EntrepreneurshipPage />
+          </Route>
+          <Route path="/fundraising">
+            <FundraisingPage />
+          </Route>
       </Switch>
 
       <hr />
