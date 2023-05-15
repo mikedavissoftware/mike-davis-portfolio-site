@@ -1,15 +1,27 @@
+import { useState } from "react"
+
 import { NavLink } from "react-router-dom"
 
 
 export default function NavBarServicesCollapse() {
 
+  const [isChecked, setIsChecked] = useState(false)
 
+  function toggleIsChecked() {
+    setIsChecked(!checkBox)
+  }
 
   return (
     <div className="collapse collapse-arrow md:hidden">
-      <input type="checkbox"/>
-      <div className="collapse-title bg-base-100 rounded-lg px-1">
-        <NavLink to="/services" className="block hover:text-[#646cff] text-white">Services</NavLink>
+      <input type="checkbox" onChange={() => toggleIsChecked}/>
+      <div
+        className={isChecked ? (
+          "bg-white"
+        ) : (
+          ""
+        )}
+      >
+        <NavLink to="/services" className="block">Services</NavLink>
       </div>
       <div className="collapse-content">
         <ul className="menu bg-slate-600 rounded-b-xl">

@@ -18,7 +18,7 @@ export default function NavBarCollapse() {
           <li><NavLink exact to="/" className="block">Home</NavLink></li>
           <li><NavLink to="/about" className="block">About</NavLink></li>
           <li><NavLink to="/products" className="block">Products</NavLink></li>
-          <NavBarServicesCollapse />
+          <NavBarServicesCollapse className="block" />
           <li><NavLink to="/contact" className="block">Contact</NavLink></li>
         </ul>
       </div>
